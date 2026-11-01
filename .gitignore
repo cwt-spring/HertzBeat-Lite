@@ -1,0 +1,37 @@
+# Build outputs, IDE metadata and logs
+target/
+.idea/
+*.iml
+logs/
+*.log
+
+# Local learning examples (keep locally, exclude from Git)
+/src/main/java/com/cwtspring/hertzbeatlite/demo/
+
+# Local environment files; examples must contain placeholders only
+.env
+.env.*
+!.env.example
+
+# Private Spring profiles; use application.yml for public defaults
+application-local.*
+application-private.*
+application-secrets.*
+application-dev.*
+application-prod.*
+
+# Local credentials and certificates
+/secrets/
+/.secrets/
+credentials.json
+credentials-*.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Operating system files
+.DS_Store
+Thumbs.db
